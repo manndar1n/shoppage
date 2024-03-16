@@ -1,0 +1,56 @@
+.all-content {
+    display: flex;
+    justify-content: center;
+}
+.all-content h3 {
+    color: aliceblue;
+}
+.all-content p {
+    color: aliceblue;
+}
+.all-content img {
+    height: 250px;
+    width: auto;
+    box-shadow: 4px 3px 4px rgb(177, 167, 167);
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.card {
+    width: 300px;
+    text-align: center;
+    border: 10px solid rgb(27, 24, 24);
+    padding: 10px 10px;
+    box-shadow: 4px 3px 4px rgb(104, 101, 101);
+}
+.card button {
+    text-align: center;
+    width: 100px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    background: none;
+    color: aliceblue;
+    border: 3px solid rgb(27, 24, 24);
+    box-shadow: 3px 3px 2px rgb(177, 167, 167);
+}
+.card button:hover {
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    background: rgb(11, 10, 10);
+}
+.counts h1 {
+    color: white;
+    background: rgb(26, 25, 25);
+    text-align: center;
+    padding: 0px 40px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: "Montserrat", sans-serif;
+}
+.counts {
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,43 @@
+.header {
+    padding: 20px;
+}
+.header__content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.search img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.search-btn {
+    display: flex;
+    padding: 50px;
+}
+.search-btn input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    background: white;
+}
+button {
+    background: white;
+    height: 30px;
+    width: 50px;
+    border: none;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+.link {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 4px 3px 4px rgb(177, 167, 167);
+}
